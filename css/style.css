@@ -42,6 +42,10 @@ h3 {
 	margin: 0px;
 }
 * {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 .container {
@@ -51,6 +55,32 @@ h3 {
 	padding: 10px;
 	margin: 10px;
 	text-align: justify;
+}
+
+/*Your Time*/
+.wrap {
+	clear: both;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+.widget {
+	width: 40%;
+	margin: 2em;
+}
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+.date {
+	font-family: Oswald, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	color: #ffffff;
+	margin-bottom: 5px;
+	background: rgba(0, 0, 0, .5);
+	padding: 20px;
+	width: 100%;
 }
 
 /*Menu boxes*/
