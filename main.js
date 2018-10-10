@@ -1,0 +1,1 @@
+alert ("Welcome to Paul's Movie Quiz!");
